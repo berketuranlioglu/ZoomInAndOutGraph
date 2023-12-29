@@ -11,7 +11,7 @@ import SwiftUI
 struct ZoomInAndOutGraphApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChartsMagnificationView()
         }
     }
 }

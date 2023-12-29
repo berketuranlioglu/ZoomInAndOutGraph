@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A689CE472B3C0E080065424A /* dump_graph_2.json in Resources */ = {isa = PBXBuildFile; fileRef = A689CE462B3C0E080065424A /* dump_graph_2.json */; };
+		A689CE492B3C18C90065424A /* flight-user-2021-04-17.json in Resources */ = {isa = PBXBuildFile; fileRef = A689CE482B3C18C90065424A /* flight-user-2021-04-17.json */; };
+		A689CE4B2B3C18DE0065424A /* flight-user-2021-04-24.json in Resources */ = {isa = PBXBuildFile; fileRef = A689CE4A2B3C18DE0065424A /* flight-user-2021-04-24.json */; };
 		A68B24262B39749A00D2F521 /* ZoomInAndOutGraphApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68B24252B39749A00D2F521 /* ZoomInAndOutGraphApp.swift */; };
 		A68B24282B39749A00D2F521 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68B24272B39749A00D2F521 /* ContentView.swift */; };
 		A68B242A2B39749C00D2F521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68B24292B39749C00D2F521 /* Assets.xcassets */; };
 		A68B242D2B39749C00D2F521 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68B242C2B39749C00D2F521 /* Preview Assets.xcassets */; };
+		A6C0249A2B3AD92B008A4D16 /* SleepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C024992B3AD92B008A4D16 /* SleepModel.swift */; };
+		A6C0249D2B3ADBBD008A4D16 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0249C2B3ADBBD008A4D16 /* MainViewModel.swift */; };
+		A6C0249F2B3ADC5D008A4D16 /* dump_graph.json in Resources */ = {isa = PBXBuildFile; fileRef = A6C0249E2B3ADC5D008A4D16 /* dump_graph.json */; };
+		A6EF341F2B3AB9FD00659350 /* ChartsMagnificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF341E2B3AB9FD00659350 /* ChartsMagnificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A689CE462B3C0E080065424A /* dump_graph_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dump_graph_2.json; sourceTree = "<group>"; };
+		A689CE482B3C18C90065424A /* flight-user-2021-04-17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "flight-user-2021-04-17.json"; sourceTree = "<group>"; };
+		A689CE4A2B3C18DE0065424A /* flight-user-2021-04-24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "flight-user-2021-04-24.json"; sourceTree = "<group>"; };
 		A68B24222B39749A00D2F521 /* ZoomInAndOutGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomInAndOutGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68B24252B39749A00D2F521 /* ZoomInAndOutGraphApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInAndOutGraphApp.swift; sourceTree = "<group>"; };
 		A68B24272B39749A00D2F521 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A68B24292B39749C00D2F521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A68B242C2B39749C00D2F521 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6C024992B3AD92B008A4D16 /* SleepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepModel.swift; sourceTree = "<group>"; };
+		A6C0249C2B3ADBBD008A4D16 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		A6C0249E2B3ADC5D008A4D16 /* dump_graph.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dump_graph.json; sourceTree = "<group>"; };
+		A6EF341E2B3AB9FD00659350 /* ChartsMagnificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsMagnificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,12 @@
 		A68B24242B39749A00D2F521 /* ZoomInAndOutGraph */ = {
 			isa = PBXGroup;
 			children = (
+				A6C024982B3AD90B008A4D16 /* Models */,
+				A6C0249B2B3ADBAD008A4D16 /* ViewModels */,
 				A68B24252B39749A00D2F521 /* ZoomInAndOutGraphApp.swift */,
 				A68B24272B39749A00D2F521 /* ContentView.swift */,
+				A6EF341E2B3AB9FD00659350 /* ChartsMagnificationView.swift */,
+				A6C024A02B3ADC62008A4D16 /* Files */,
 				A68B24292B39749C00D2F521 /* Assets.xcassets */,
 				A68B242B2B39749C00D2F521 /* Preview Content */,
 			);
@@ -65,6 +83,33 @@
 				A68B242C2B39749C00D2F521 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6C024982B3AD90B008A4D16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6C024992B3AD92B008A4D16 /* SleepModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6C0249B2B3ADBAD008A4D16 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A6C0249C2B3ADBBD008A4D16 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A6C024A02B3ADC62008A4D16 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C0249E2B3ADC5D008A4D16 /* dump_graph.json */,
+				A689CE462B3C0E080065424A /* dump_graph_2.json */,
+				A689CE482B3C18C90065424A /* flight-user-2021-04-17.json */,
+				A689CE4A2B3C18DE0065424A /* flight-user-2021-04-24.json */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +171,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A68B242D2B39749C00D2F521 /* Preview Assets.xcassets in Resources */,
+				A689CE472B3C0E080065424A /* dump_graph_2.json in Resources */,
+				A6C0249F2B3ADC5D008A4D16 /* dump_graph.json in Resources */,
+				A689CE4B2B3C18DE0065424A /* flight-user-2021-04-24.json in Resources */,
 				A68B242A2B39749C00D2F521 /* Assets.xcassets in Resources */,
+				A689CE492B3C18C90065424A /* flight-user-2021-04-17.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C0249A2B3AD92B008A4D16 /* SleepModel.swift in Sources */,
 				A68B24282B39749A00D2F521 /* ContentView.swift in Sources */,
+				A6EF341F2B3AB9FD00659350 /* ChartsMagnificationView.swift in Sources */,
 				A68B24262B39749A00D2F521 /* ZoomInAndOutGraphApp.swift in Sources */,
+				A6C0249D2B3ADBBD008A4D16 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +332,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +362,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
