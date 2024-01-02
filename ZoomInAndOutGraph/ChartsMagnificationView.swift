@@ -53,12 +53,6 @@ struct ChartsMagnificationView: View {
                             .offset(x: 4, y: -20)
                     }
                     .chartXScale(domain: viewModel.sleepNewModelData[viewModel.minTime ... viewModel.minTime+viewModel.maxTimeInterval])
-                    /*
-                    .chartXScale(domain: [
-                        viewModel.sleepNewModelData[viewModel.minTime].date,
-                        viewModel.sleepNewModelData[viewModel.minTime + viewModel.maxTimeInterval].date
-                    ])
-                     */
                     .chartYAxis {
                         AxisMarks(position: .leading, values: [10, 30, 50, 70]) {
                             let value = $0.index

@@ -38,18 +38,6 @@ struct SleepData: Decodable {
     }
 }
 
-struct SleepModel: Decodable {
-    let max_snore_db: Double
-    let datetime: Date
-    let category: String
-    
-    init(max_snore_db: Double, datetime: Date, category: String) {
-        self.max_snore_db = max_snore_db
-        self.datetime = datetime
-        self.category = category
-    }
-}
-
 struct SleepNewModel: Decodable, Plottable {
     var primitivePlottable: String {
         return datetime

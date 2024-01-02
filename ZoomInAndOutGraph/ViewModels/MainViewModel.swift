@@ -12,7 +12,6 @@ import Charts
 class MainViewModel: ObservableObject {
     
     @Published var isLoading: Bool = true
-    // @Published var sleepModelData: [SleepModel] = []
     @Published var sleepNewModelData: [SleepNewModel] = []
     @Published var shownXAxis: [String] = [] {
         didSet {
@@ -48,24 +47,6 @@ class MainViewModel: ObservableObject {
             fatalError("No file found!")
         }
     }
-    
-    /*
-     private func convertToSleepModel() {
-     for datum in sleepData {
-     var dummyDate = datum.datetime
-     dummyDate.removeLast(4)
-     dummyDate += "+00:00"
-     if let convertedDate = ISO8601DateFormatter().date(from: dummyDate) {
-     let newDatum = SleepModel(max_db: datum.max_db, datetime: convertedDate, category: datum.category)
-     sleepModelData.append(newDatum)
-     } else {
-     fatalError("Date conversion error, aborted")
-     }
-     }
-     maxTimeInterval = sleepModelData.count - 1
-     isLoading = false
-     }
-     */
     
     private func convertToSleepNewModel() {
         for datum in sleepData {
@@ -103,7 +84,7 @@ class MainViewModel: ObservableObject {
     
     // MARK: - Dynamic Values for the chart
     func updateXAxis() {
-        if maxTimeInterval == maxZoomBarCount {
+        if maxTimeInterval == 7 {
             shownXAxis = (0...maxZoomBarCount).map { sleepNewModelData[minTime+$0].datetime }
         } else {
             let step = maxTimeInterval / 4
@@ -122,28 +103,6 @@ class MainViewModel: ObservableObject {
     }
     
     // MARK: - Tap Gesture
-    /*
-     func doSelection(at location: CGPoint, proxy: ChartProxy, geometry: GeometryProxy) {
-     let origin = geometry[proxy.plotAreaFrame].origin
-     if let datePos = proxy.value(atX: location.x - origin.x, as: Date.self) {
-     let calendar = Calendar.current
-     let corrHour = calendar.component(.hour, from: datePos)
-     let hour = corrHour < 10 ? "0\(corrHour)" : "\(corrHour)"
-     let corrMinute = calendar.component(.minute, from: datePos)
-     let minute = corrMinute < 10 ? "0\(corrMinute)" : "\(corrMinute)"
-     if let index = sleepModelData.firstIndex(where: {
-     calendar.component(.hour, from: $0.datetime) == corrHour &&
-     calendar.component(.minute, from: $0.datetime) == corrMinute
-     }) {
-     selectedTime = "\(hour):\(minute)"
-     selectedLevel = Int(sleepModelData[index].max_db)
-     selectedCategory = sleepModelData[index].category
-     } else {
-     print("no index found")
-     }
-     }
-     }
-     */
     func doSelection(at location: CGPoint, proxy: ChartProxy, geometry: GeometryProxy) {
         let origin = geometry[proxy.plotAreaFrame].origin
         if let datePos = proxy.value(atX: location.x - origin.x, as: String.self) {
