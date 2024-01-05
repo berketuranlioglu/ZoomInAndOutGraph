@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A64403172B4809BD0026AD0C /* snore-and-chill-data.json in Resources */ = {isa = PBXBuildFile; fileRef = A64403162B4809BD0026AD0C /* snore-and-chill-data.json */; };
 		A689CE472B3C0E080065424A /* dump_graph_2.json in Resources */ = {isa = PBXBuildFile; fileRef = A689CE462B3C0E080065424A /* dump_graph_2.json */; };
 		A689CE492B3C18C90065424A /* flight-user-2021-04-17.json in Resources */ = {isa = PBXBuildFile; fileRef = A689CE482B3C18C90065424A /* flight-user-2021-04-17.json */; };
 		A689CE4B2B3C18DE0065424A /* flight-user-2021-04-24.json in Resources */ = {isa = PBXBuildFile; fileRef = A689CE4A2B3C18DE0065424A /* flight-user-2021-04-24.json */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A64403162B4809BD0026AD0C /* snore-and-chill-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "snore-and-chill-data.json"; sourceTree = "<group>"; };
 		A689CE462B3C0E080065424A /* dump_graph_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dump_graph_2.json; sourceTree = "<group>"; };
 		A689CE482B3C18C90065424A /* flight-user-2021-04-17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "flight-user-2021-04-17.json"; sourceTree = "<group>"; };
 		A689CE4A2B3C18DE0065424A /* flight-user-2021-04-24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "flight-user-2021-04-24.json"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				A689CE462B3C0E080065424A /* dump_graph_2.json */,
 				A689CE482B3C18C90065424A /* flight-user-2021-04-17.json */,
 				A689CE4A2B3C18DE0065424A /* flight-user-2021-04-24.json */,
+				A64403162B4809BD0026AD0C /* snore-and-chill-data.json */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A68B242D2B39749C00D2F521 /* Preview Assets.xcassets in Resources */,
+				A64403172B4809BD0026AD0C /* snore-and-chill-data.json in Resources */,
 				A689CE472B3C0E080065424A /* dump_graph_2.json in Resources */,
 				A6C0249F2B3ADC5D008A4D16 /* dump_graph.json in Resources */,
 				A689CE4B2B3C18DE0065424A /* flight-user-2021-04-24.json in Resources */,

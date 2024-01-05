@@ -1,0 +1,1282 @@
+[
+ {
+  "rowLabels": "04-20-58",
+  "chill": 62.59,
+  "grandTotal": 62.59
+ },
+ {
+  "rowLabels": "04-21-58",
+  "chill": 56.62,
+  "grandTotal": 56.62
+ },
+ {
+  "rowLabels": "04-22-58",
+  "chill": 53.32,
+  "grandTotal": 53.32
+ },
+ {
+  "rowLabels": "04-23-58",
+  "light": 55.19,
+  "grandTotal": 55.19
+ },
+ {
+  "rowLabels": "04-24-58",
+  "loud": 60.2,
+  "grandTotal": 60.2
+ },
+ {
+  "rowLabels": "04-25-58",
+  "loud": 58.99,
+  "grandTotal": 58.99
+ },
+ {
+  "rowLabels": "04-26-58",
+  "loud": 60.89,
+  "grandTotal": 60.89
+ },
+ {
+  "rowLabels": "04-27-58",
+  "loud": 58.71,
+  "grandTotal": 58.71
+ },
+ {
+  "rowLabels": "04-28-58",
+  "loud": 64.13,
+  "grandTotal": 64.13
+ },
+ {
+  "rowLabels": "04-29-58",
+  "loud": 62.94,
+  "grandTotal": 62.94
+ },
+ {
+  "rowLabels": "04-30-58",
+  "chill": 47.46,
+  "grandTotal": 47.46
+ },
+ {
+  "rowLabels": "04-31-58",
+  "light": 48.88,
+  "grandTotal": 48.88
+ },
+ {
+  "rowLabels": "04-32-58",
+  "chill": 48.8,
+  "grandTotal": 48.8
+ },
+ {
+  "rowLabels": "04-33-58",
+  "chill": 48.94,
+  "grandTotal": 48.94
+ },
+ {
+  "rowLabels": "04-34-58",
+  "chill": 48.21,
+  "grandTotal": 48.21
+ },
+ {
+  "rowLabels": "04-35-58",
+  "chill": 65.74,
+  "grandTotal": 65.74
+ },
+ {
+  "rowLabels": "04-36-58",
+  "loud": 60.99,
+  "grandTotal": 60.99
+ },
+ {
+  "rowLabels": "04-37-58",
+  "chill": 49.03,
+  "grandTotal": 49.03
+ },
+ {
+  "rowLabels": "04-38-58",
+  "chill": 62.05,
+  "grandTotal": 62.05
+ },
+ {
+  "rowLabels": "04-39-58",
+  "loud": 61.43,
+  "grandTotal": 61.43
+ },
+ {
+  "rowLabels": "04-40-58",
+  "chill": 61.66,
+  "grandTotal": 61.66
+ },
+ {
+  "rowLabels": "04-41-58",
+  "chill": 61.36,
+  "grandTotal": 61.36
+ },
+ {
+  "rowLabels": "04-42-58",
+  "loud": 62.64,
+  "grandTotal": 62.64
+ },
+ {
+  "rowLabels": "04-43-58",
+  "loud": 60.15,
+  "grandTotal": 60.15
+ },
+ {
+  "rowLabels": "04-44-58",
+  "loud": 62.59,
+  "grandTotal": 62.59
+ },
+ {
+  "rowLabels": "04-45-58",
+  "chill": 62.03,
+  "grandTotal": 62.03
+ },
+ {
+  "rowLabels": "04-46-58",
+  "chill": 62.27,
+  "grandTotal": 62.27
+ },
+ {
+  "rowLabels": "04-47-58",
+  "loud": 63.74,
+  "grandTotal": 63.74
+ },
+ {
+  "rowLabels": "04-48-58",
+  "loud": 63.13,
+  "grandTotal": 63.13
+ },
+ {
+  "rowLabels": "04-49-58",
+  "loud": 63.96,
+  "grandTotal": 63.96
+ },
+ {
+  "rowLabels": "04-50-58",
+  "chill": 62.62,
+  "grandTotal": 62.62
+ },
+ {
+  "rowLabels": "04-51-58",
+  "chill": 72.49,
+  "grandTotal": 72.49
+ },
+ {
+  "rowLabels": "04-52-58",
+  "loud": 61.62,
+  "grandTotal": 61.62
+ },
+ {
+  "rowLabels": "04-53-58",
+  "chill": 57.14,
+  "grandTotal": 57.14
+ },
+ {
+  "rowLabels": "04-54-58",
+  "chill": 49.7,
+  "grandTotal": 49.7
+ },
+ {
+  "rowLabels": "04-55-58",
+  "chill": 62.89,
+  "grandTotal": 62.89
+ },
+ {
+  "rowLabels": "04-56-58",
+  "chill": 45.45,
+  "grandTotal": 45.45
+ },
+ {
+  "rowLabels": "04-57-58",
+  "chill": 58.35,
+  "grandTotal": 58.35
+ },
+ {
+  "rowLabels": "04-58-58",
+  "chill": 65.88,
+  "grandTotal": 65.88
+ },
+ {
+  "rowLabels": "04-59-58",
+  "chill": 51.54,
+  "grandTotal": 51.54
+ },
+ {
+  "rowLabels": "05-00-58",
+  "chill": 47.55,
+  "grandTotal": 47.55
+ },
+ {
+  "rowLabels": "05-01-58",
+  "chill": 57.14,
+  "grandTotal": 57.14
+ },
+ {
+  "rowLabels": "05-02-58",
+  "chill": 60.32,
+  "grandTotal": 60.32
+ },
+ {
+  "rowLabels": "05-03-58",
+  "chill": 60.22,
+  "grandTotal": 60.22
+ },
+ {
+  "rowLabels": "05-04-58",
+  "chill": 55.18,
+  "grandTotal": 55.18
+ },
+ {
+  "rowLabels": "05-05-58",
+  "chill": 42.25,
+  "grandTotal": 42.25
+ },
+ {
+  "rowLabels": "05-06-58",
+  "loud": 64.33,
+  "grandTotal": 64.33
+ },
+ {
+  "rowLabels": "05-07-58",
+  "light": 55.77,
+  "grandTotal": 55.77
+ },
+ {
+  "rowLabels": "05-08-58",
+  "chill": 57.26,
+  "grandTotal": 57.26
+ },
+ {
+  "rowLabels": "05-09-58",
+  "chill": 64.47,
+  "grandTotal": 64.47
+ },
+ {
+  "rowLabels": "05-10-58",
+  "chill": 62.36,
+  "grandTotal": 62.36
+ },
+ {
+  "rowLabels": "05-11-58",
+  "chill": 64.19,
+  "grandTotal": 64.19
+ },
+ {
+  "rowLabels": "05-12-58",
+  "chill": 62.3,
+  "grandTotal": 62.3
+ },
+ {
+  "rowLabels": "05-13-58",
+  "chill": 60.08,
+  "grandTotal": 60.08
+ },
+ {
+  "rowLabels": "05-14-58",
+  "chill": 65.14,
+  "grandTotal": 65.14
+ },
+ {
+  "rowLabels": "05-15-58",
+  "loud": 64.3,
+  "grandTotal": 64.3
+ },
+ {
+  "rowLabels": "05-16-58",
+  "chill": 63.95,
+  "grandTotal": 63.95
+ },
+ {
+  "rowLabels": "05-17-58",
+  "chill": 63.86,
+  "grandTotal": 63.86
+ },
+ {
+  "rowLabels": "05-18-58",
+  "chill": 58.44,
+  "grandTotal": 58.44
+ },
+ {
+  "rowLabels": "05-19-58",
+  "chill": 53.11,
+  "grandTotal": 53.11
+ },
+ {
+  "rowLabels": "05-20-58",
+  "chill": 50.26,
+  "grandTotal": 50.26
+ },
+ {
+  "rowLabels": "05-21-58",
+  "loud": 56.79,
+  "grandTotal": 56.79
+ },
+ {
+  "rowLabels": "05-22-58",
+  "loud": 61.62,
+  "grandTotal": 61.62
+ },
+ {
+  "rowLabels": "05-23-58",
+  "chill": 55.17,
+  "grandTotal": 55.17
+ },
+ {
+  "rowLabels": "05-24-58",
+  "chill": 49.49,
+  "grandTotal": 49.49
+ },
+ {
+  "rowLabels": "05-25-58",
+  "chill": 47.6,
+  "grandTotal": 47.6
+ },
+ {
+  "rowLabels": "05-26-58",
+  "chill": 52.86,
+  "grandTotal": 52.86
+ },
+ {
+  "rowLabels": "05-27-58",
+  "chill": 42.48,
+  "grandTotal": 42.48
+ },
+ {
+  "rowLabels": "05-28-58",
+  "chill": 52.62,
+  "grandTotal": 52.62
+ },
+ {
+  "rowLabels": "05-29-58",
+  "chill": 52.06,
+  "grandTotal": 52.06
+ },
+ {
+  "rowLabels": "05-30-58",
+  "loud": 60.48,
+  "grandTotal": 60.48
+ },
+ {
+  "rowLabels": "05-31-58",
+  "chill": 47.22,
+  "grandTotal": 47.22
+ },
+ {
+  "rowLabels": "05-32-58",
+  "chill": 61.82,
+  "grandTotal": 61.82
+ },
+ {
+  "rowLabels": "05-33-58",
+  "loud": 64.44,
+  "grandTotal": 64.44
+ },
+ {
+  "rowLabels": "05-34-58",
+  "loud": 63.23,
+  "grandTotal": 63.23
+ },
+ {
+  "rowLabels": "05-35-58",
+  "loud": 61.77,
+  "grandTotal": 61.77
+ },
+ {
+  "rowLabels": "05-36-58",
+  "loud": 64.62,
+  "grandTotal": 64.62
+ },
+ {
+  "rowLabels": "05-37-58",
+  "loud": 59.56,
+  "grandTotal": 59.56
+ },
+ {
+  "rowLabels": "05-38-58",
+  "loud": 66.13,
+  "grandTotal": 66.13
+ },
+ {
+  "rowLabels": "05-39-58",
+  "chill": 60.52,
+  "grandTotal": 60.52
+ },
+ {
+  "rowLabels": "05-40-58",
+  "loud": 65.17,
+  "grandTotal": 65.17
+ },
+ {
+  "rowLabels": "05-41-58",
+  "loud": 67.67,
+  "grandTotal": 67.67
+ },
+ {
+  "rowLabels": "05-42-58",
+  "loud": 66.52,
+  "grandTotal": 66.52
+ },
+ {
+  "rowLabels": "05-43-58",
+  "loud": 65.7,
+  "grandTotal": 65.7
+ },
+ {
+  "rowLabels": "05-44-58",
+  "loud": 59.33,
+  "grandTotal": 59.33
+ },
+ {
+  "rowLabels": "05-45-58",
+  "loud": 67.12,
+  "grandTotal": 67.12
+ },
+ {
+  "rowLabels": "05-46-58",
+  "loud": 63.93,
+  "grandTotal": 63.93
+ },
+ {
+  "rowLabels": "05-47-58",
+  "loud": 64.43,
+  "grandTotal": 64.43
+ },
+ {
+  "rowLabels": "05-48-58",
+  "loud": 67.82,
+  "grandTotal": 67.82
+ },
+ {
+  "rowLabels": "05-49-58",
+  "loud": 66.64,
+  "grandTotal": 66.64
+ },
+ {
+  "rowLabels": "05-50-58",
+  "loud": 67.2,
+  "grandTotal": 67.2
+ },
+ {
+  "rowLabels": "05-51-58",
+  "loud": 69.2,
+  "grandTotal": 69.2
+ },
+ {
+  "rowLabels": "05-52-58",
+  "loud": 68.03,
+  "grandTotal": 68.03
+ },
+ {
+  "rowLabels": "05-53-58",
+  "loud": 68.66,
+  "grandTotal": 68.66
+ },
+ {
+  "rowLabels": "05-54-58",
+  "light": 54.82,
+  "grandTotal": 54.82
+ },
+ {
+  "rowLabels": "05-55-58",
+  "loud": 60.1,
+  "grandTotal": 60.1
+ },
+ {
+  "rowLabels": "05-56-58",
+  "loud": 66.72,
+  "grandTotal": 66.72
+ },
+ {
+  "rowLabels": "05-57-58",
+  "loud": 63.81,
+  "grandTotal": 63.81
+ },
+ {
+  "rowLabels": "05-58-58",
+  "chill": 54.66,
+  "grandTotal": 54.66
+ },
+ {
+  "rowLabels": "05-59-58",
+  "chill": 42.66,
+  "grandTotal": 42.66
+ },
+ {
+  "rowLabels": "06-00-58",
+  "chill": 43.31,
+  "grandTotal": 43.31
+ },
+ {
+  "rowLabels": "06-01-58",
+  "chill": 43.44,
+  "grandTotal": 43.44
+ },
+ {
+  "rowLabels": "06-02-58",
+  "chill": 41.74,
+  "grandTotal": 41.74
+ },
+ {
+  "rowLabels": "06-03-58",
+  "chill": 43.23,
+  "grandTotal": 43.23
+ },
+ {
+  "rowLabels": "06-04-58",
+  "chill": 42.31,
+  "grandTotal": 42.31
+ },
+ {
+  "rowLabels": "06-05-58",
+  "chill": 49.94,
+  "grandTotal": 49.94
+ },
+ {
+  "rowLabels": "06-06-58",
+  "epic": 71.84,
+  "grandTotal": 71.84
+ },
+ {
+  "rowLabels": "06-07-58",
+  "chill": 53.43,
+  "grandTotal": 53.43
+ },
+ {
+  "rowLabels": "06-08-58",
+  "chill": 44.31,
+  "grandTotal": 44.31
+ },
+ {
+  "rowLabels": "06-09-58",
+  "chill": 42.7,
+  "grandTotal": 42.7
+ },
+ {
+  "rowLabels": "06-10-58",
+  "chill": 59.01,
+  "grandTotal": 59.01
+ },
+ {
+  "rowLabels": "06-11-58",
+  "light": 54.72,
+  "grandTotal": 54.72
+ },
+ {
+  "rowLabels": "06-12-58",
+  "chill": 61.77,
+  "grandTotal": 61.77
+ },
+ {
+  "rowLabels": "06-13-58",
+  "chill": 51.56,
+  "grandTotal": 51.56
+ },
+ {
+  "rowLabels": "06-14-58",
+  "chill": 49.65,
+  "grandTotal": 49.65
+ },
+ {
+  "rowLabels": "06-15-58",
+  "light": 53.33,
+  "grandTotal": 53.33
+ },
+ {
+  "rowLabels": "06-16-58",
+  "chill": 56.97,
+  "grandTotal": 56.97
+ },
+ {
+  "rowLabels": "06-17-58",
+  "chill": 60.45,
+  "grandTotal": 60.45
+ },
+ {
+  "rowLabels": "06-18-58",
+  "chill": 51.74,
+  "grandTotal": 51.74
+ },
+ {
+  "rowLabels": "06-19-58",
+  "chill": 42.36,
+  "grandTotal": 42.36
+ },
+ {
+  "rowLabels": "06-20-58",
+  "light": 52.18,
+  "grandTotal": 52.18
+ },
+ {
+  "rowLabels": "06-21-58",
+  "loud": 62.93,
+  "grandTotal": 62.93
+ },
+ {
+  "rowLabels": "06-22-58",
+  "loud": 60,
+  "grandTotal": 60
+ },
+ {
+  "rowLabels": "06-23-58",
+  "loud": 59.99,
+  "grandTotal": 59.99
+ },
+ {
+  "rowLabels": "06-24-58",
+  "loud": 61.53,
+  "grandTotal": 61.53
+ },
+ {
+  "rowLabels": "06-25-58",
+  "loud": 64.49,
+  "grandTotal": 64.49
+ },
+ {
+  "rowLabels": "06-26-58",
+  "loud": 63.19,
+  "grandTotal": 63.19
+ },
+ {
+  "rowLabels": "06-27-58",
+  "loud": 61.01,
+  "grandTotal": 61.01
+ },
+ {
+  "rowLabels": "06-28-58",
+  "loud": 64.55,
+  "grandTotal": 64.55
+ },
+ {
+  "rowLabels": "06-29-58",
+  "epic": 74.81,
+  "grandTotal": 74.81
+ },
+ {
+  "rowLabels": "06-30-58",
+  "loud": 63.09,
+  "grandTotal": 63.09
+ },
+ {
+  "rowLabels": "06-55-37",
+  "chill": 78.92,
+  "grandTotal": 78.92
+ },
+ {
+  "rowLabels": "06-56-37",
+  "light": 49.97,
+  "grandTotal": 49.97
+ },
+ {
+  "rowLabels": "06-57-37",
+  "light": 49.23,
+  "grandTotal": 49.23
+ },
+ {
+  "rowLabels": "06-58-37",
+  "chill": 48.32,
+  "grandTotal": 48.32
+ },
+ {
+  "rowLabels": "06-59-37",
+  "light": 47.14,
+  "grandTotal": 47.14
+ },
+ {
+  "rowLabels": "07-00-37",
+  "quiet": 46.21,
+  "grandTotal": 46.21
+ },
+ {
+  "rowLabels": "07-01-37",
+  "chill": 47.62,
+  "grandTotal": 47.62
+ },
+ {
+  "rowLabels": "07-02-37",
+  "chill": 66.32,
+  "grandTotal": 66.32
+ },
+ {
+  "rowLabels": "07-03-37",
+  "chill": 54.82,
+  "grandTotal": 54.82
+ },
+ {
+  "rowLabels": "07-04-37",
+  "chill": 54.62,
+  "grandTotal": 54.62
+ },
+ {
+  "rowLabels": "07-05-37",
+  "chill": 40.67,
+  "grandTotal": 40.67
+ },
+ {
+  "rowLabels": "07-06-37",
+  "loud": 57,
+  "grandTotal": 57
+ },
+ {
+  "rowLabels": "07-07-37",
+  "chill": 55.44,
+  "grandTotal": 55.44
+ },
+ {
+  "rowLabels": "07-08-37",
+  "chill": 45.57,
+  "grandTotal": 45.57
+ },
+ {
+  "rowLabels": "07-09-37",
+  "chill": 52.85,
+  "grandTotal": 52.85
+ },
+ {
+  "rowLabels": "07-10-37",
+  "chill": 55.79,
+  "grandTotal": 55.79
+ },
+ {
+  "rowLabels": "07-11-37",
+  "chill": 61.35,
+  "grandTotal": 61.35
+ },
+ {
+  "rowLabels": "07-12-37",
+  "chill": 61.89,
+  "grandTotal": 61.89
+ },
+ {
+  "rowLabels": "07-13-37",
+  "loud": 69.07,
+  "grandTotal": 69.07
+ },
+ {
+  "rowLabels": "07-14-37",
+  "chill": 55.07,
+  "grandTotal": 55.07
+ },
+ {
+  "rowLabels": "07-15-37",
+  "chill": 68.3,
+  "grandTotal": 68.3
+ },
+ {
+  "rowLabels": "07-16-37",
+  "chill": 50.83,
+  "grandTotal": 50.83
+ },
+ {
+  "rowLabels": "07-17-37",
+  "chill": 49.82,
+  "grandTotal": 49.82
+ },
+ {
+  "rowLabels": "07-18-37",
+  "loud": 61.21,
+  "grandTotal": 61.21
+ },
+ {
+  "rowLabels": "07-19-37",
+  "loud": 58.46,
+  "grandTotal": 58.46
+ },
+ {
+  "rowLabels": "07-20-37",
+  "chill": 52.34,
+  "grandTotal": 52.34
+ },
+ {
+  "rowLabels": "07-21-37",
+  "chill": 54.86,
+  "grandTotal": 54.86
+ },
+ {
+  "rowLabels": "07-22-37",
+  "chill": 62.73,
+  "grandTotal": 62.73
+ },
+ {
+  "rowLabels": "07-23-37",
+  "loud": 63.68,
+  "grandTotal": 63.68
+ },
+ {
+  "rowLabels": "07-24-37",
+  "loud": 63.78,
+  "grandTotal": 63.78
+ },
+ {
+  "rowLabels": "07-25-37",
+  "loud": 68.81,
+  "grandTotal": 68.81
+ },
+ {
+  "rowLabels": "07-26-37",
+  "loud": 70.1,
+  "grandTotal": 70.1
+ },
+ {
+  "rowLabels": "07-27-37",
+  "epic": 74.66,
+  "grandTotal": 74.66
+ },
+ {
+  "rowLabels": "07-28-37",
+  "loud": 64.6,
+  "grandTotal": 64.6
+ },
+ {
+  "rowLabels": "07-29-37",
+  "loud": 64.99,
+  "grandTotal": 64.99
+ },
+ {
+  "rowLabels": "07-30-37",
+  "loud": 63.7,
+  "grandTotal": 63.7
+ },
+ {
+  "rowLabels": "07-31-37",
+  "loud": 63.8,
+  "grandTotal": 63.8
+ },
+ {
+  "rowLabels": "07-32-37",
+  "chill": 63.24,
+  "grandTotal": 63.24
+ },
+ {
+  "rowLabels": "07-33-37",
+  "chill": 61.92,
+  "grandTotal": 61.92
+ },
+ {
+  "rowLabels": "07-34-37",
+  "loud": 65.91,
+  "grandTotal": 65.91
+ },
+ {
+  "rowLabels": "07-35-37",
+  "loud": 65.29,
+  "grandTotal": 65.29
+ },
+ {
+  "rowLabels": "07-36-37",
+  "light": 47.78,
+  "grandTotal": 47.78
+ },
+ {
+  "rowLabels": "07-37-37",
+  "loud": 63.78,
+  "grandTotal": 63.78
+ },
+ {
+  "rowLabels": "07-38-37",
+  "loud": 61.56,
+  "grandTotal": 61.56
+ },
+ {
+  "rowLabels": "07-39-37",
+  "loud": 62.31,
+  "grandTotal": 62.31
+ },
+ {
+  "rowLabels": "07-40-37",
+  "chill": 60.95,
+  "grandTotal": 60.95
+ },
+ {
+  "rowLabels": "07-41-37",
+  "loud": 63.44,
+  "grandTotal": 63.44
+ },
+ {
+  "rowLabels": "07-42-37",
+  "loud": 67.28,
+  "grandTotal": 67.28
+ },
+ {
+  "rowLabels": "07-43-37",
+  "loud": 66.62,
+  "grandTotal": 66.62
+ },
+ {
+  "rowLabels": "07-44-37",
+  "loud": 63.89,
+  "grandTotal": 63.89
+ },
+ {
+  "rowLabels": "07-45-37",
+  "loud": 63.1,
+  "grandTotal": 63.1
+ },
+ {
+  "rowLabels": "07-46-37",
+  "loud": 64.25,
+  "grandTotal": 64.25
+ },
+ {
+  "rowLabels": "07-47-37",
+  "loud": 64.84,
+  "grandTotal": 64.84
+ },
+ {
+  "rowLabels": "07-48-37",
+  "loud": 65.58,
+  "grandTotal": 65.58
+ },
+ {
+  "rowLabels": "07-49-37",
+  "loud": 65.77,
+  "grandTotal": 65.77
+ },
+ {
+  "rowLabels": "07-50-37",
+  "loud": 66.21,
+  "grandTotal": 66.21
+ },
+ {
+  "rowLabels": "07-51-37",
+  "loud": 66.61,
+  "grandTotal": 66.61
+ },
+ {
+  "rowLabels": "07-52-37",
+  "chill": 65.21,
+  "grandTotal": 65.21
+ },
+ {
+  "rowLabels": "07-53-37",
+  "epic": 73.04,
+  "grandTotal": 73.04
+ },
+ {
+  "rowLabels": "07-54-37",
+  "loud": 68.16,
+  "grandTotal": 68.16
+ },
+ {
+  "rowLabels": "07-55-37",
+  "chill": 61.38,
+  "grandTotal": 61.38
+ },
+ {
+  "rowLabels": "07-56-37",
+  "chill": 63.99,
+  "grandTotal": 63.99
+ },
+ {
+  "rowLabels": "07-57-37",
+  "chill": 52.15,
+  "grandTotal": 52.15
+ },
+ {
+  "rowLabels": "07-58-37",
+  "loud": 62.95,
+  "grandTotal": 62.95
+ },
+ {
+  "rowLabels": "07-59-37",
+  "loud": 68.32,
+  "grandTotal": 68.32
+ },
+ {
+  "rowLabels": "08-00-37",
+  "loud": 58.3,
+  "grandTotal": 58.3
+ },
+ {
+  "rowLabels": "08-01-37",
+  "loud": 61.02,
+  "grandTotal": 61.02
+ },
+ {
+  "rowLabels": "08-02-37",
+  "loud": 57.72,
+  "grandTotal": 57.72
+ },
+ {
+  "rowLabels": "08-03-37",
+  "loud": 63.9,
+  "grandTotal": 63.9
+ },
+ {
+  "rowLabels": "08-04-37",
+  "loud": 63.25,
+  "grandTotal": 63.25
+ },
+ {
+  "rowLabels": "08-05-37",
+  "chill": 73.64,
+  "grandTotal": 73.64
+ },
+ {
+  "rowLabels": "08-06-37",
+  "chill": 45.05,
+  "grandTotal": 45.05
+ },
+ {
+  "rowLabels": "08-07-37",
+  "chill": 60.73,
+  "grandTotal": 60.73
+ },
+ {
+  "rowLabels": "08-08-37",
+  "chill": 72.3,
+  "grandTotal": 72.3
+ },
+ {
+  "rowLabels": "08-09-37",
+  "chill": 62.56,
+  "grandTotal": 62.56
+ },
+ {
+  "rowLabels": "08-10-37",
+  "chill": 58.33,
+  "grandTotal": 58.33
+ },
+ {
+  "rowLabels": "08-11-37",
+  "chill": 62.03,
+  "grandTotal": 62.03
+ },
+ {
+  "rowLabels": "08-12-37",
+  "chill": 61.1,
+  "grandTotal": 61.1
+ },
+ {
+  "rowLabels": "08-13-37",
+  "quiet": 46.14,
+  "grandTotal": 46.14
+ },
+ {
+  "rowLabels": "08-14-37",
+  "loud": 60.66,
+  "grandTotal": 60.66
+ },
+ {
+  "rowLabels": "08-15-37",
+  "loud": 62.31,
+  "grandTotal": 62.31
+ },
+ {
+  "rowLabels": "08-16-37",
+  "chill": 56.7,
+  "grandTotal": 56.7
+ },
+ {
+  "rowLabels": "08-17-37",
+  "chill": 61.5,
+  "grandTotal": 61.5
+ },
+ {
+  "rowLabels": "08-18-37",
+  "light": 50.58,
+  "grandTotal": 50.58
+ },
+ {
+  "rowLabels": "08-19-37",
+  "loud": 58.03,
+  "grandTotal": 58.03
+ },
+ {
+  "rowLabels": "08-20-37",
+  "loud": 57.36,
+  "grandTotal": 57.36
+ },
+ {
+  "rowLabels": "08-21-37",
+  "loud": 59.54,
+  "grandTotal": 59.54
+ },
+ {
+  "rowLabels": "08-22-37",
+  "loud": 66.56,
+  "grandTotal": 66.56
+ },
+ {
+  "rowLabels": "08-23-37",
+  "loud": 60.76,
+  "grandTotal": 60.76
+ },
+ {
+  "rowLabels": "08-24-37",
+  "loud": 60.81,
+  "grandTotal": 60.81
+ },
+ {
+  "rowLabels": "08-25-37",
+  "chill": 54.69,
+  "grandTotal": 54.69
+ },
+ {
+  "rowLabels": "08-26-37",
+  "chill": 46.11,
+  "grandTotal": 46.11
+ },
+ {
+  "rowLabels": "08-27-37",
+  "chill": 39.74,
+  "grandTotal": 39.74
+ },
+ {
+  "rowLabels": "08-28-37",
+  "chill": 47.7,
+  "grandTotal": 47.7
+ },
+ {
+  "rowLabels": "08-29-37",
+  "chill": 43.61,
+  "grandTotal": 43.61
+ },
+ {
+  "rowLabels": "08-30-37",
+  "chill": 46.62,
+  "grandTotal": 46.62
+ },
+ {
+  "rowLabels": "08-31-37",
+  "chill": 52.82,
+  "grandTotal": 52.82
+ },
+ {
+  "rowLabels": "08-32-37",
+  "chill": 40,
+  "grandTotal": 40
+ },
+ {
+  "rowLabels": "08-33-37",
+  "chill": 41.25,
+  "grandTotal": 41.25
+ },
+ {
+  "rowLabels": "08-34-37",
+  "chill": 50.46,
+  "grandTotal": 50.46
+ },
+ {
+  "rowLabels": "08-35-37",
+  "loud": 61.15,
+  "grandTotal": 61.15
+ },
+ {
+  "rowLabels": "08-36-37",
+  "chill": 55.26,
+  "grandTotal": 55.26
+ },
+ {
+  "rowLabels": "08-37-37",
+  "loud": 64.14,
+  "grandTotal": 64.14
+ },
+ {
+  "rowLabels": "08-38-37",
+  "light": 50.69,
+  "grandTotal": 50.69
+ },
+ {
+  "rowLabels": "08-39-37",
+  "loud": 67.93,
+  "grandTotal": 67.93
+ },
+ {
+  "rowLabels": "08-40-37",
+  "loud": 68.37,
+  "grandTotal": 68.37
+ },
+ {
+  "rowLabels": "08-41-37",
+  "loud": 62.88,
+  "grandTotal": 62.88
+ },
+ {
+  "rowLabels": "08-42-37",
+  "loud": 69.36,
+  "grandTotal": 69.36
+ },
+ {
+  "rowLabels": "08-43-37",
+  "loud": 65.47,
+  "grandTotal": 65.47
+ },
+ {
+  "rowLabels": "08-44-37",
+  "loud": 67.04,
+  "grandTotal": 67.04
+ },
+ {
+  "rowLabels": "08-45-37",
+  "loud": 66.81,
+  "grandTotal": 66.81
+ },
+ {
+  "rowLabels": "08-46-37",
+  "light": 54.34,
+  "grandTotal": 54.34
+ },
+ {
+  "rowLabels": "08-47-37",
+  "loud": 66.9,
+  "grandTotal": 66.9
+ },
+ {
+  "rowLabels": "08-48-37",
+  "loud": 61.1,
+  "grandTotal": 61.1
+ },
+ {
+  "rowLabels": "08-49-37",
+  "loud": 64.2,
+  "grandTotal": 64.2
+ },
+ {
+  "rowLabels": "08-50-37",
+  "loud": 62.84,
+  "grandTotal": 62.84
+ },
+ {
+  "rowLabels": "08-51-37",
+  "loud": 65.2,
+  "grandTotal": 65.2
+ },
+ {
+  "rowLabels": "08-52-37",
+  "light": 56.21,
+  "grandTotal": 56.21
+ },
+ {
+  "rowLabels": "08-53-37",
+  "chill": 49.66,
+  "grandTotal": 49.66
+ },
+ {
+  "rowLabels": "08-54-37",
+  "chill": 44,
+  "grandTotal": 44
+ },
+ {
+  "rowLabels": "08-55-37",
+  "chill": 57.79,
+  "grandTotal": 57.79
+ },
+ {
+  "rowLabels": "08-56-37",
+  "chill": 60.13,
+  "grandTotal": 60.13
+ },
+ {
+  "rowLabels": "08-57-37",
+  "chill": 58.7,
+  "grandTotal": 58.7
+ },
+ {
+  "rowLabels": "08-58-37",
+  "chill": 59.81,
+  "grandTotal": 59.81
+ },
+ {
+  "rowLabels": "08-59-37",
+  "light": 48.95,
+  "grandTotal": 48.95
+ }
+]

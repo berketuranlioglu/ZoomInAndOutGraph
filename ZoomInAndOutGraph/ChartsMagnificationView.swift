@@ -18,10 +18,16 @@ struct ChartsMagnificationView: View {
         ZStack {
             if !viewModel.isLoading {
                 List {
-                    Chart(viewModel.sleepNewModelData, id: \.datetime) { sleep in
+                    Chart(viewModel.sleepNewModelData, id: \.date) { sleep in
+                        AreaMark(
+                            x: .value("Time", sleep.date, unit: .minute),
+                            y: .value("Chill", sleep.chill ?? 0)
+                        )
+                        .foregroundStyle(Color.green.opacity(0.4))
+                        
                         BarMark(
-                            x: .value("Time", sleep.datetime),
-                            y: .value("Noise level", sleep.max_snore_db)
+                            x: .value("Time", sleep.date, unit: .minute),
+                            y: .value("Snore level", sleep.max_snore_db ?? 0)
                         )
                         .foregroundStyle(viewModel.categoryColor(for: sleep.category))
                     }
@@ -46,18 +52,21 @@ struct ChartsMagnificationView: View {
                         }
                     }
                     .chartXAxis {
-                        AxisMarks(preset: .aligned, values: viewModel.shownXAxis, stroke: StrokeStyle(lineWidth: 0))
+                        AxisMarks(preset: .aligned, stroke: StrokeStyle(lineWidth: 0))
                     }
                     .chartXAxisLabel(position: .bottomLeading) {
                         Text("Time")
                             .offset(x: 4, y: -20)
                     }
-                    .chartXScale(domain: viewModel.sleepNewModelData[viewModel.minTime ... viewModel.minTime+viewModel.maxTimeInterval])
+                    .chartXScale(domain: [
+                        viewModel.sleepNewModelData[viewModel.minTime].date,
+                        viewModel.sleepNewModelData[viewModel.minTime + viewModel.maxTimeInterval].date
+                    ])
                     .chartYAxis {
                         AxisMarks(position: .leading, values: [10, 30, 50, 70]) {
                             let value = $0.index
                             AxisValueLabel {
-                                Text(["Quiet", "Light", "Loud", "Severe"][value])
+                                Text(["Quiet", "Light", "Loud", "Epic"][value])
                             }
                         }
                         AxisMarks(values: [10, 30, 50, 70]) {

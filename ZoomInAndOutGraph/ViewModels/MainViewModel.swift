@@ -13,19 +13,15 @@ class MainViewModel: ObservableObject {
     
     @Published var isLoading: Bool = true
     @Published var sleepNewModelData: [SleepNewModel] = []
-    @Published var shownXAxis: [String] = [] {
-        didSet {
-            print("shownXAxis: \(shownXAxis)")
-        }
-    }
+    @Published var shownXAxis: [String] = []
     @Published var minTime: Int = 0
     @Published var maxTimeInterval: Int = 0
-    @Published var selectedTime: String?
+    @Published var selectedTime: Date?
     @Published var selectedLevel: Int?
     @Published var selectedCategory: String?
     
-    private var sleepData: [SleepData] = []
-    private let fileDirectory = "dump_graph"
+    private var sleepData: [SleepChillData] = []
+    private let fileDirectory = "snore-and-chill-data"
     private let maxZoomBarCount: Int = 39
     
     func decodeJSON() {
@@ -34,8 +30,7 @@ class MainViewModel: ObservableObject {
             do {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
-                decoder.dateDecodingStrategy = .iso8601
-                let jsonData = try decoder.decode([SleepData].self, from: data)
+                let jsonData = try decoder.decode([SleepChillData].self, from: data)
                 sleepData = jsonData
                 // convertToSleepModel()
                 convertToSleepNewModel()
@@ -49,31 +44,41 @@ class MainViewModel: ObservableObject {
     }
     
     private func convertToSleepNewModel() {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "HH-mm-ss"
         for datum in sleepData {
-            var dummyDate = datum.datetime
-            dummyDate.removeLast(4)
-            dummyDate += "+00:00"
-            if let convertedDate = ISO8601DateFormatter().date(from: dummyDate) {
-                let calendar = Calendar.current
-                let corrHour = calendar.component(.hour, from: convertedDate)
-                let hour = corrHour < 10 ? "0\(corrHour)" : "\(corrHour)"
-                let corrMinute = calendar.component(.minute, from: convertedDate)
-                let minute = corrMinute < 10 ? "0\(corrMinute)" : "\(corrMinute)"
-                let dateStr = "\(hour):\(minute)"
-                let newDatum = SleepNewModel(max_snore_db: datum.max_snore_db, date: convertedDate, datetime: dateStr, category: datum.category)
+            var dummyDate = datum.rowLabels
+            if let convertedDate = dateFormatter.date(from: dummyDate) {
+                var max_snore_db: Double? = nil
+                var category: String? = nil
+                if let epic = datum.epic {
+                    max_snore_db = epic
+                    category = "Epic"
+                } else if let light = datum.light {
+                    max_snore_db = light
+                    category = "Light"
+                } else if let loud = datum.loud {
+                    max_snore_db = loud
+                    category = "Loud"
+                } else if let quiet = datum.quiet {
+                    max_snore_db = quiet
+                    category = "Quiet"
+                }
+                let newDatum = SleepNewModel(max_snore_db: max_snore_db, chill: datum.chill, date: convertedDate, datetime: nil, category: category)
                 sleepNewModelData.append(newDatum)
             } else {
                 fatalError("Date conversion error, aborted")
             }
         }
-        print(sleepNewModelData)
         maxTimeInterval = sleepNewModelData.count - 1
         isLoading = false
     }
     
-    func categoryColor(for category: String) -> Color {
-        if category == "Quiet" {
-            return Color.green
+    func categoryColor(for category: String?) -> Color {
+        if category == nil {
+            return Color.clear
+        } else if category == "Quiet" {
+            return Color.blue.opacity(0.5)
         } else if category == "Light" {
             return Color.yellow
         } else if category == "Loud" {
@@ -84,6 +89,7 @@ class MainViewModel: ObservableObject {
     
     // MARK: - Dynamic Values for the chart
     func updateXAxis() {
+        /*
         if maxTimeInterval == 7 {
             shownXAxis = (0...maxZoomBarCount).map { sleepNewModelData[minTime+$0].datetime }
         } else {
@@ -96,25 +102,30 @@ class MainViewModel: ObservableObject {
                 sleepNewModelData[minTime+maxTimeInterval].datetime,
             ]
         }
+         */
     }
     
     func updateShownData() -> [String] {
-        return sleepNewModelData[minTime..<minTime+maxTimeInterval].map { $0.datetime }
+        return sleepNewModelData[minTime..<minTime+maxTimeInterval].map { $0.datetime ?? "" }
     }
     
     // MARK: - Tap Gesture
     func doSelection(at location: CGPoint, proxy: ChartProxy, geometry: GeometryProxy) {
         let origin = geometry[proxy.plotAreaFrame].origin
-        if let datePos = proxy.value(atX: location.x - origin.x, as: String.self) {
+        if let datePos = proxy.value(atX: location.x - origin.x, as: Date.self) {
+            let calendar = Calendar.current
             if let index = sleepNewModelData.firstIndex(where: {
-                $0.datetime == datePos
+                calendar.component(.hour, from: $0.date) == calendar.component(.hour, from: datePos)
+                && calendar.component(.minute, from: $0.date) == calendar.component(.minute, from: datePos)
             }) {
                 selectedTime = datePos
-                selectedLevel = Int(sleepNewModelData[index].max_snore_db)
+                selectedLevel = Int(sleepNewModelData[index].max_snore_db ?? 0)
                 selectedCategory = sleepNewModelData[index].category
             } else {
                 print("no index found")
             }
+        } else {
+            print("datePos error")
         }
     }
     
@@ -191,8 +202,11 @@ class MainViewModel: ObservableObject {
     
     // MARK: - Conditional Strings
     func setSelectedTimeText() -> String {
-        if selectedTime != nil {
-            return "Selected time: \(selectedTime!)\nLoudness: \(selectedCategory!)"
+        if selectedTime != nil && selectedCategory != nil {
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "HH:mm"
+            let strDate = dateFormatter.string(from: selectedTime!)
+            return "Selected time: \(strDate)\nLoudness: \(selectedCategory!)"
         }
         return "No time is selected"
     }
